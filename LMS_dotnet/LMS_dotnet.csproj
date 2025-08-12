@@ -1723,7 +1723,7 @@
     <Content Include="fontawesome\webfonts\fa-regular-400.svg" />
     <Content Include="fontawesome\webfonts\fa-solid-900.svg" />
     <Content Include="Global.asax" />
-    <Content Include="lms_logo.png" />
+    <Content Include="Logo\lms_logo.png" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
   </ItemGroup>

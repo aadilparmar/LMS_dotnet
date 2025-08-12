@@ -48,9 +48,91 @@
                         </li>
                     </ul>
                 </div>
+                <div class="pmd-navbar right-icon ml-auto" style="padding-right:30px">
+                    <a class="btn btn-sm btn-secondary  " href="index.html">Login</a>
+                </div>
             </nav>
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-            </asp:ContentPlaceHolder>
+            <div class="jumbotron text-center alert alert-primary" style="margin-bottom:0">
+                <h1>Library Management System</h1>
+                <p>Building Community , Inspiring Readers , Expanding Book access</p>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-3 border border-info">
+                        <h2>Filter</h2>
+                        <h5>Category:</h5>
+                        <div class="fakeimg">Fake Image</div>
+                        <p>Some Text about library management system in english</p>
+                        <h3>Some Links</h3>
+                        <p>Top Search</p>
+                        <ul class="nav nav-pills flex-column ">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Link</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" href="#">Link</a>
+                            </li>
+    
+                            <li class="nav-item">
+                                <a class="nav-link disabled" href="#">Link</a>
+                            </li>
+    
+                        </ul>
+                        <hr class="d-sm-none" />
+                    </div>
+                    <div class="col-sm-9 border border-info">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
+                </div>
+            </div>
+            <br />
+            <div class="jumbotron text-center alert alert-danger" style="margin-bottom:0; border:2px solid red">
+                <p>Footer</p>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="footer-pad">
+                                <h4>Heading1</h4>
+                                <ul class="list-unstyled">
+                                    <li><a href="#"></a></li>
+                                    <li><a href="#">Payment Center</a></li>
+                                    <li><a href="#">News & Updates</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="footer-pad">
+                                <h4>Heading1</h4>
+                                <ul class="list-unstyled">
+                                    <li><a href="#"></a></li>
+                                    <li><a href="#">Website</a></li>
+                                    <li><a href="#">Disclaimer</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="footer-pad">
+                                <h4>Follow Us</h4>
+                                <ul class="social-network social-circle">
+                                    <li><a href="#" title="Facebook"><i class="fa fa-facebook">Facebook</i></a></li>
+                                  
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 fa-copyright border-dark">
+                            <p class="text-center">
+                                &copy; Copyrite 2025 - Dotnet . All Rights Reserved .
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </form>
 </body>
